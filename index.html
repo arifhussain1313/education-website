@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="logo.png" alt="EduLearn Logo">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to EduLearn</h1>
+            <p>Learn from the best, anywhere, anytime</p>
+            <button class="btn">Get Started</button>
+        </div>
+        <img src="hero-bg.jpg" alt="Hero Background Image" class="hero-bg">
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+       <h2>Explore Our Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="course1.jpg" alt="Course 1 Image">
+                <h3>Course 1: Introduction to Programming</h3>
+                <p>Learn the basics of programming with our interactive course</p>
+                <button class="btn">Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="course2.jpg" alt="Course 2 Image">
+                <h3>Course 2: Data Science Fundamentals</h3>
+                <p>Discover the world of data science with our comprehensive course</p>
+                <button class="btn">Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="course3.jpg" alt="Course 3 Image">
+                <h3>Course 3: Web Development Essentials</h3>
+                <p>Build your own website with our hands-on web development course</p>
+                <button class="btn">Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate educators dedicated to providing high-quality online education</p>
+        <img src="about-us.jpg" alt="About Us Image">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>Have a question or feedback? We'd love to hear from you</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <textarea id="message" placeholder="Message"></textarea>
+            <button class="btn" id="submit-btn">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://facebook.com/edulearn" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://instagram.com/edulearn" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="tel:+1234567890"><i class="fas fa-phone"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
